@@ -1,0 +1,116 @@
+.wrapper {
+    margin-top: 80px;
+    cursor: pointer;
+}
+
+// Slide 1
+.slide-1 {
+    position: relative;
+    height: 100%;
+}
+.img-1 {
+    position: absolute;
+    z-index: -10;
+    right: 0;
+    top: 0;
+}
+
+.on-img-1 {
+    min-width: 450px;
+    position: absolute;
+    bottom: 20px;
+    z-index: -5;
+}
+.wrapper-title-on-img1 {
+    padding-top: 67px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 10px;
+}
+
+.name1-on-img1 {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 128.19%;
+    color: var(--text-white);
+    text-transform: uppercase;
+}
+
+.name2-on-img1 {
+    position: relative;
+    white-space: nowrap;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 128.19%;
+    color: var(--text-white);
+    text-transform: uppercase;
+
+    &::after {
+        position: absolute;
+        left: 0;
+        bottom: -10px;
+        content: '';
+        width: 64px;
+        height: 2px;
+        background-color: rgba(250, 250, 250, 1);
+    }
+}
+
+.title-on-img1 {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    color: var(--text-white);
+}
+// Slide 1
+
+// Slide 2
+.slide-2 {
+    position: relative;
+    height: 100%;
+}
+.img-2 {
+    position: absolute;
+    z-index: -10;
+    right: 0;
+    top: 0;
+}
+.on-img-2 {
+    position: absolute;
+    bottom: 0px;
+    z-index: -5;
+}
+.wrapper-title-on-img2 {
+    padding-top: 154px;
+    display: flex;
+    flex-direction: column;
+}
+
+.name1-on-img2 {
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 128.19%;
+    color: var(--text-white);
+    text-transform: uppercase;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+.name2-on-img2 {
+    font-weight: 700;
+    font-size: 110px;
+    line-height: 128.19%;
+    color: var(--text-white);
+    text-transform: uppercase;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.name3-on-img2 {
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 128.19%;
+    color: var(--text-white);
+    text-transform: uppercase;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+// Slide 2

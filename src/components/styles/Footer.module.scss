@@ -1,0 +1,88 @@
+.gradient-footer {
+    background: linear-gradient(90deg, #f6f6f6 4.56%, #d71921 50.03%, #f6f6f6 93.65%);
+    height: 3px;
+    width: 100%;
+}
+.background-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 403px;
+    padding: 60px 0px;
+    background: url('https://i.imgur.com/MtcufNf.png') center / cover no-repeat;
+}
+
+.wrapper-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: var(--default-layout-width);
+    height: 100%;
+    color: #e5e5e5;
+}
+
+.col-footer {
+    width: fit-content;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+}
+
+.title-footer {
+    margin-bottom: 15px;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 22px;
+    text-transform: uppercase;
+}
+.title-li {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    display: flex;
+    align-items: left;
+    gap: 9px;
+    margin-bottom: 16px;
+}
+
+.title-access {
+    margin-top: 55px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 184.19%;
+    display: flex;
+    gap: 8px;
+}
+
+.title-copy-right {
+    margin-top: 16px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.title-connect {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 184.19%;
+    display: flex;
+    gap: 14px;
+    margin-bottom: 21px;
+}
+
+.title-phone {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 184.19%;
+}
+
+.title-time {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 184.19%;
+    padding-left: 30px;
+}
