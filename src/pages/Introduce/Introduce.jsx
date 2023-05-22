@@ -239,7 +239,7 @@ function Introduce() {
 				style={{ width: '100%', height: '1844px', gap: '27px' }}
 			>
 				<h1 className={cx('tittle-section')}>Giao diện phần mềm</h1>
-				<img data-aos="fade-down" src="/images/Lib-6.png" alt="img-lib-6" />
+				<img src="/images/Lib-6.png" alt="img-lib-6" />
 			</section>
 			{showUpTopBtn && <ScrollToTop component={<UpToTopIcon />} smooth />}
 		</div>
